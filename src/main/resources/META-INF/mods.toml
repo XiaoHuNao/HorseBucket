@@ -1,0 +1,11 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "horsebucket"
+version = "${file.jarVersion}"
+displayName = "HorseBucket"
+authors = "XiaoHuNao"
+description = '''
+可以用水桶捕捉马效果类似于鲑鱼桶
+'''

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "horsebucket:horse_bucket"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "title": "你装你马呢",
+    "description": "使用水桶把驯服的马装起",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [
+              {
+                  "item": "horsebucket:horse_bucket"
+              }
+          ]
+      }
+    }
+  }
+}
